@@ -1,0 +1,13 @@
+.LatestPosts__Container {
+  margin: 50px 0;
+}
+
+.LatestPosts__Title {
+  border-top: 5px solid #24292f;
+  border-bottom: 1px solid #d8dee4;
+  padding: 7px 0 11px;
+}
+
+.LatestPosts__Content {
+  display: flex;
+}

@@ -1,0 +1,17 @@
+.HomePage__Container {
+  margin: auto;
+  /* padding: 0 24px; */
+  max-width: 1280px;
+}
+
+.HomePage__Content {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: row;
+}
+
+.HomePage__SecondaryPosts {
+  display: flex;
+  margin-top: 40px;
+  box-sizing: border-box;
+}

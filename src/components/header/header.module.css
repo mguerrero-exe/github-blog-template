@@ -1,0 +1,100 @@
+.Header {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  padding: 0 10px;
+  border-bottom: 1px solid #d0d7de;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+}
+
+.Header__Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 10px;
+  width: 100%;
+  max-width: 1230px;
+}
+
+.HeaderLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.Header__Menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row nowrap;
+  list-style: none;
+  flex-grow: 1;
+}
+
+.Header__Menu li {
+  font-weight: 500;
+}
+.Header__Menu li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Logo {
+  transition: all 0.2s;
+  fill: #24292f;
+  cursor: pointer;
+}
+.Logo:hover {
+  opacity: 0.7;
+}
+
+.Header__Title {
+  color: #24292f;
+  transition: all 0.2s;
+  margin: 0;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.Header__Title:hover {
+  opacity: 0.7;
+}
+
+.TrialBtn {
+  font-weight: 600;
+  border: none;
+  padding: .9rem 1.5rem 1.1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-image: linear-gradient(180deg, #fff2 0%, #fff0 100%);
+  background-color: #1b1f23;
+  border-radius: 8px;
+  text-align: center;
+  transition: all .2s;
+}
+
+.ContactBtn {
+  font-weight: 600;
+  padding: .9rem 1.5rem 1.1rem;
+  font-size: 1rem;
+  color: #000;
+  border-radius: 8px;
+  text-align: center;
+  transition: all .2s;
+  background-color: #0000;
+  border: 1px solid #0002;
+  box-sizing: border-box;
+  margin-left: 10px;
+  background-clip: padding-box;
+}
