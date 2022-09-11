@@ -21,7 +21,6 @@ const HomePageSection = () => {
       category: 'Enterprise',
       title: 'GitHub Actions: introducing the new, larger GitHub-hosted runners beta',
       content: 'Now your team can spend less time managing infrastructure and more time writing code.',
-      userProfilePicture: 'https://torange.biz/photofxnew/76/HD/lion-profile-picture-76801.jpg',
       username: 'Ben De St Paer-Gotch',
       date: 'September 1, 2022',
     },
@@ -31,7 +30,6 @@ const HomePageSection = () => {
       title: 'What you can expect at GitHub Universe 2022: cloud, security, community, and AI',
       content:
         'Register now to attend GitHub Universe virtually or in-person at the Yerba Buena Center for the Arts in San Francisco on November 9-10.',
-      userProfilePicture: 'https://torange.biz/photofxnew/76/HD/lion-profile-picture-76801.jpg',
       username: 'Jeimy Ruiz',
       date: 'August 31, 2022',
     },
@@ -41,7 +39,6 @@ const HomePageSection = () => {
       title: 'GitHub Copilot now available for teachers',
       content:
         'After a year in technical preview, GitHub Copilot, an AI pair programmer, is now free for all teachers verified on GitHub Global Campus.',
-      userProfilePicture: 'https://torange.biz/photofxnew/76/HD/lion-profile-picture-76801.jpg',
       username: 'Elise Hollowed & Andrew Rice',
       date: 'September 8, 2022',
     },
@@ -49,22 +46,20 @@ const HomePageSection = () => {
   const secondatyItems = [
     {
       image: 'https://c4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-thumb.jpg',
-      category: 'Enterprise',
-      title: 'GitHub Actions: introducing the new, larger GitHub-hosted runners beta',
+      category: 'Open Source',
+      title: 'Research: open source software in India, Kenya, Egypt, and Mexico',
       content: 'Now your team can spend less time managing infrastructure and more time writing code.',
-      userProfilePicture: 'https://torange.biz/photofxnew/76/HD/lion-profile-picture-76801.jpg',
-      username: 'Ben De St Paer-Gotch',
-      date: 'September 1, 2022',
+      username: 'Mala Kumar',
+      date: 'September 7, 2022',
     },
     {
       image: 'https://wallpaper.dog/large/10795761.jpg',
-      category: 'Community',
-      title: 'What you can expect at GitHub Universe 2022: cloud, security, community, and AI',
+      category: 'Engineering',
+      title: 'GitHub Availability Report: August 2022',
       content:
-        'Register now to attend GitHub Universe virtually or in-person at the Yerba Buena Center for the Arts in San Francisco on November 9-10.',
-      userProfilePicture: 'https://torange.biz/photofxnew/76/HD/lion-profile-picture-76801.jpg',
-      username: 'Jeimy Ruiz',
-      date: 'August 31, 2022',
+        'In August, we experienced one incident resulting in significant impact to Codespaces. We’re still investigating that incident and will include it in next month’s report. This report also sheds light into an incident that impacted Codespaces in July.',
+      username: 'Jakub Oleksy',
+      date: 'September 8, 2022',
     },
   ];
   return (

@@ -37,8 +37,8 @@ const Header = () => {
           <li>Chanelog</li>
           <li>More</li>
         </ul>
-        <button className={styles.TrialBtn}>Free Trial</button>
-        <button className={styles.ContactBtn}>Contact Sales</button>
+        <button className={styles.TrialBtn}>Free trial</button>
+        <button className={styles.ContactBtn}>Contact sales</button>
       </section>
     </header>
   );

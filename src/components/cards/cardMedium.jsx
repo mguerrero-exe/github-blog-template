@@ -17,10 +17,12 @@ const CardMedium = (props) => {
           <img src={item.image} alt={item.title} className={styles.Image} width='780' height='440' />
         </section>
         <ColorText text={item.category} />
-        <Heading title={item.title} />
+        <Heading title={item.title} style={{ fontSize: '32px' }} />
         <Parragraph text={item.content} />
-        <Heading title={item.username} />
-        <DateTxt text={item.date} />
+        <section style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center'}}>
+          <Heading title={item.username} style={{ marginRight: 10}} />
+          <DateTxt text={item.date} style={{ marginTop: -5}} />
+        </section>
       </section>
     </article>
   );
